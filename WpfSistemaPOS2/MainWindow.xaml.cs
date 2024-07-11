@@ -39,7 +39,7 @@ namespace WpfSistemaPOS2
                 //mainWindow2.Show();
 
                 //Cerrar la ventana actual y abrir la nueva
-                Home home = new Home();
+                Home home = new();
                 home.Show();
                 this.Close();
             }
